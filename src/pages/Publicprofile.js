@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Header from './../components/Header'
+import Reciever from './Reciever';
 
 function Publicprofile() {
-  return (
-    <div>Publicprofile</div>
-  )
+    return ( <
+        div > < Header / >
+        <
+        Reciever / > < /div>
+    )
 }
 
 export default Publicprofile
