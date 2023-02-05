@@ -317,3 +317,34 @@ input::placeholder {
 .select-btn button:active {
     transform: scale(1.2);
 }
+
+.inner-container p {
+    position: relative;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+    word-wrap: break-word;
+}
+
+.inner-container:hover {
+    background: #F0F6FA;
+    transform: scale();
+}
+
+.inner-container:hover img,
+p {
+    border-color: white;
+}
+
+.inner-container img {
+    position: relative;
+    padding: 15px 22px;
+}

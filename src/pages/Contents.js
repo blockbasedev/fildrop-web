@@ -4,6 +4,19 @@ import image2 from './../components/sharedata.png';
 import image3 from './../components/dropfiles.png';
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Image1 from './Image1.png';
+import Image2 from './Image2.png';
+import Image3 from './Image1.png';
+import Image4 from './Image1.png';
+import Image5 from './Image8.png';
+import Image6 from './Image6.png';
+import Image7 from './Image1.png';
+import Image8 from './Image8.png';
+import Image9 from './Image6.png';
+import Image10 from './Image2.png';
+
+
+
 
 const Contents = () => {
     const planStorage = 1;
@@ -20,6 +33,8 @@ const Contents = () => {
             toggleShow(true);
         }
     }
+    const texts = ['Chaal.txt', 'Virat.mp3', 'Midhula.txt', 'Pavi.txt', 'IPL.mp4', 'Filecoin.json', 'Austin.txt', 'File..on.mp4', 'Ethe..m.json', 'Ave..rs.mp3'];
+    const imageResources = [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8, Image9, Image10];
 
     const containers = [];
 
@@ -29,10 +44,17 @@ const Contents = () => {
             style = {
                 { width: '110px', height: '160px', border: '1px solid black', borderRadius: '10px', margin: '17px' }
             }
-            key = { i }
-            />
+            key = { i } >
+
+            <
+            img src = { imageResources[i] }
+
+            /> <
+            p > { texts[i] } < /p> < /
+            div >
         );
     }
+
 
     return ( <
         div className = 'body-content' >
