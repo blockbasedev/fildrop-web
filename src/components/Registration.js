@@ -14,7 +14,7 @@ const Registration = (props) => {
     return ( <
         div className = "register-text" >
         Complete the Registration <
-        div class = "container" >
+        div className = "container01" >
         <
         div className = "userid-text" > { props.userid } < img src = { Verified }
         /> < /div > <
